@@ -13,11 +13,14 @@ pip install django
 pip install djangorestframework
 pip install pygments  # We'll be using this for the code highlighting
 
+
 django-admin.py startproject tutorial
 python manage.py startapp snippets
 
 python manage.py makemigrations snippets
 python manage.py migrate
+
+python manage.py runserver 0:8000
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
