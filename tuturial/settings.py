@@ -9,11 +9,6 @@ https://docs.djangoproject.com/en/1.8/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.8/ref/settings/
 
-pip install django
-pip install djangorestframework
-pip install pygments  # We'll be using this for the code highlighting
-
-
 django-admin.py startproject tutorial
 python manage.py startapp snippets
 
