@@ -1,3 +1,7 @@
 django<2
 djangorestframework
 pygments
+coverage==4.0.3
+flake8==2.5.1
+mkdocs==0.15.3
+drfdocs
